@@ -1,33 +1,23 @@
-header {
-    background-color: var(--dark_blue);
-}
+/* utilities */
 
-.hero {
-    background-color: #1ABC9C;
+:root {
+    --green: #1ABC9C;
+    --dark-blue: #2C3E50;
+    --light-blue: #3A546D;
 }
 
 img {
     max-width: 100%;
 }
 
-.about {
+.bg-green {
     background-color: var(--green);
 }
 
-
-
-/* utilities */
-
-:root {
-    --green: #1ABC9C;
-    --dark_blue: #2C3E50;
-    --light-blue: #3A546D;
+.bg-light-blue {
+    background-color: var(--light-blue);
 }
 
-
-
-/* DEBUG */
-
-.debu .col-12 {
-    border: 2px solid black;
+.bg-dark-blue {
+    background-color: var(--dark-blue);
 }
