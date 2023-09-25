@@ -1,4 +1,27 @@
-
 header {
     background-color: #2C3E50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .hero {
+    background-color: #1ABC9C;
+}
+
+.debug .col-12 {
+    border: 2px solid black;
 }
