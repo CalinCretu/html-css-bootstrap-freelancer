@@ -6,6 +6,10 @@
   --light-blue: #3A546D;
 }
 
+.color-green {
+  color: var(--green);
+}
+
 .bg-green {
   background-color: var(--green);
 }
@@ -44,3 +48,39 @@
   top: 50%;
   position: absolute;
 }
+
+
+.icon-border {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2em;
+}
+
+.lg-menu {
+  display: none;
+}
+
+@media (min-width: 576px) {
+
+ }
+
+@media (min-width: 768px) {
+  .sm-menu {
+    display: none;
+  }
+  .lg-menu {
+    display: block;
+  }
+ }
+
+@media (min-width: 992px) {
+
+ }
+
+@media (min-width: 1200px) {
+
+ }
+
+@media (min-width: 1400px) {
+
+ }
