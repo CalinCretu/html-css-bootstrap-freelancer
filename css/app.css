@@ -1,19 +1,46 @@
 /* utilities */
 
 :root {
-    --green: #1ABC9C;
-    --dark-blue: #2C3E50;
-    --light-blue: #3A546D;
+  --green: #1ABC9C;
+  --dark-blue: #2C3E50;
+  --light-blue: #3A546D;
 }
 
 .bg-green {
-    background-color: var(--green);
+  background-color: var(--green);
 }
 
 .bg-light-blue {
-    background-color: var(--light-blue);
+  background-color: var(--light-blue);
 }
 
 .bg-dark-blue {
-    background-color: var(--dark-blue);
+  background-color: var(--dark-blue);
+}
+
+
+.star-line {
+  position: relative;
+}
+
+.star-line::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: currentColor;
+  left: 30px;
+  top: 50%;
+  position: absolute;
+}
+
+.star-line::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: currentColor;
+  left: -90px;
+  top: 50%;
+  position: absolute;
 }
