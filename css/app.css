@@ -6,10 +6,6 @@
     --light-blue: #3A546D;
 }
 
-img {
-    max-width: 100%;
-}
-
 .bg-green {
     background-color: var(--green);
 }
