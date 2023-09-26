@@ -22,7 +22,6 @@
   background-color: var(--dark-blue);
 }
 
-
 .star-line {
   position: relative;
 }
@@ -49,7 +48,6 @@
   position: absolute;
 }
 
-
 .icon-border {
   border: 1px solid white;
   border-radius: 50%;
@@ -60,27 +58,25 @@
   display: none;
 }
 
-@media (min-width: 576px) {
 
- }
+
+
+
+/* media */
+@media (min-width: 576px) {}
 
 @media (min-width: 768px) {
   .sm-menu {
     display: none;
   }
+
   .lg-menu {
     display: block;
   }
- }
+}
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
- }
+@media (min-width: 1200px) {}
 
-@media (min-width: 1200px) {
-
- }
-
-@media (min-width: 1400px) {
-
- }
+@media (min-width: 1400px) {}
